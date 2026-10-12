@@ -1,0 +1,14 @@
+@'
+
+minio-data/
+pg-data/
+metabase/
+
+spark/jars/
+
+.env
+*.log
+
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Path .gitignore -Encoding ascii
